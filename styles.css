@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(186, 186, 165);
+}
+.choiceBtn {
+  line-height: 30px;
+  width: 150px;
+  border-radius: 6px;
+}
+#gameDiv {
+  font-family: consolas, monospace;
+  border: 3px solid;
+  border-radius: 20px;
+  padding: 12px;
+  background-color: lightgrey;
+  text-align: center;
+}
+#playerText {
+  color: blue;
+}
+#computerText {
+  color: red;
+}
